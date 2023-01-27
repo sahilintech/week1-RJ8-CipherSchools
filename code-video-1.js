@@ -29,5 +29,5 @@
 // Rest and Spread Operator are applicable in arrays and objecgs in js
 let array = [5, 10, 15, 20, 25];
 // Spread -> ...
-console.log(...array);
+console.log(...array, 78);
 // Rest -> ...
