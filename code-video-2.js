@@ -79,8 +79,37 @@ arr.forEach(element => {
 
 // map and set
 
-let map = new Map();
+// let map = new Map();
 
-map.set("name", "sahil");
-console.log(map);
-map.entries();
+// map.set("name", "sahil");
+// console.log(map);
+// console.log(map.entries());
+
+// let set = new Set();
+// set.add(1);
+// set.add(-1);
+// console.log(set);
+
+// Class
+
+class Animal {
+    noOfLegs;
+    color;
+    family;
+    sound;
+
+    constructor(noOfLegs, color, family, sound){
+        this.family = family;
+        this.color = color;
+        this.sound = sound;
+        this.noOfLegs = noOfLegs
+    }
+
+    showAnimal(){
+        console.log(`The animal belong to family ${this.family}`);
+    }
+}
+
+    let animal = new Animal(4, "brown", "rodent", "something");
+    console.log(animal);
+    animal.showAnimal();
