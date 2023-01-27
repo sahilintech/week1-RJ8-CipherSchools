@@ -29,5 +29,21 @@
 // Rest and Spread Operator are applicable in arrays and objecgs in js
 let array = [5, 10, 15, 20, 25];
 // Spread -> ...
-console.log(...array, 78);
+// console.log(...array, 78);
+let newArray = array; 
+console.log(array);
+console.log(newArray);
+let newArray2 = [...array];
+array.push(56);
+console.log(array);
+console.log(newArray2)
 // Rest -> ...
+// for object
+let object = {
+    name: "sahil",
+    age: 21,
+    city: "new york"
+}
+
+let object2 = {...object, country: "usa"};
+console.log(object2);
